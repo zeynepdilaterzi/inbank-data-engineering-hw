@@ -2,7 +2,7 @@
 
 ## how to run?
 
-### Part 2
+### Part 1
 * Install Postgres locally or spin up a container.
   The script includes creating and populating the tables.
  #### for local postgres:
@@ -13,13 +13,19 @@
   ```
 #### for docker:
 * The docker image with init.db is available in the docker hub
-* run the following command to 
+* After running the command below, the final table will be visible in the terminal.
   
 
 ```bash
-$ docker-compose up -d --build 
-$ docker-compose exec web alembic upgrade head
+$ docker run --rm zeynepdilaterzi/inbank-db 2>&1
 ```
 
-##
+### Part 2
+* Install Jupyter Notebook.
+* Launch a terminal instance in the directory.
 
+run:
+```bash
+$ jupyter notebook
+
+```
