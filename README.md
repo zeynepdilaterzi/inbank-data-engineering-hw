@@ -12,7 +12,7 @@
  $ \i aggregated_monthly_payments.sql
   ```
 #### for docker:
-* The docker image with init.db is available in the docker hub
+* The docker image with init.db is available in the docker hub.
 * After running the command below, the final table will be visible in the terminal.
   
 
